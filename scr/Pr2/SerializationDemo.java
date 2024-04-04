@@ -44,7 +44,7 @@ public class SerializationDemo {
     }
     
     // Метод для перевірки transient поля після серіалізації
-    private void checkTransientField() {
+     {
         System.out.println("Value of transient field: " + transientField);
     }
 }

@@ -52,10 +52,11 @@ class ProblemSolver implements Serializable {
     }
 
     // Метод для вирішення задачі
-    public void solveProblem() {
-        double result = // ваш алгоритм обчислення рішення задачі на основі параметрів
-        calculationData.setResult(result);
-    }
+public void solveProblem() {
+    double result = calculationData.getParameter1() + calculationData.getParameter2(); // Наприклад, додамо параметри
+    calculationData.setResult(result);
+}
+
 
     // Геттер для отримання результату обчислень
     public double getResult() {
